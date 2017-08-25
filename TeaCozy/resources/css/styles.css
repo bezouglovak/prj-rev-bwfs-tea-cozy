@@ -1,0 +1,129 @@
+/* Hello whoever is grading this! I had a question/concern about the first background image
+where the the mission is stated. I know on the specs the width is supposed 1200 px wide and 700px
+tall (and I set it to just that), but it just doesn't 'look' right. In the preview it looks like it's
+more of a cover image that should span more of the width of the screen. Please let me know which way
+is correct! Thanks!
+-Kristina*/
+
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  text-align: center;
+  margin: 0;
+}
+
+header {
+  position: fixed;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+  height: 69px;
+  width: 100%;
+  align-items: center;
+  z-index: 1;
+}
+
+header img {
+  padding-left: 10px;
+  height: 50px;
+}
+
+.main {
+  padding-top: 69px;
+  opacity: 0.9;
+  width: 1200px;
+  margin: auto;
+}
+
+nav {
+  text-align: right;
+  flex-grow: 1;
+}
+
+nav span {
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+a {
+  color: seashell;
+  text-decoration: underline;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+h1, h2, h3 {
+  margin: 0px;
+  padding: 10px;
+}
+
+#mission {
+  background-image: url(./images/img-mission-background.jpg);
+  width: 1200px;
+  height: 700px;
+  padding-top: 50px;
+}
+
+#mission .content {
+  width: 100%;
+  margin: auto;
+  background-color: black;
+  height: 150px;
+}
+
+#featured {
+  height: 700px;
+  width: 1000px;
+  margin: auto;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.food {
+  padding: 5px;
+}
+
+.food img {
+  height: 200px;
+  width: 300px;
+  margin: 10px;
+  display: block;
+}
+
+.food span {
+  font-weight: bold;
+  display: block;
+  padding: 10px;
+  text-align: center;
+}
+
+#locations {
+  background-image: url(./images/img-locations-background.jpg);
+  height: 500px;
+  padding-top: 70px;
+}
+
+.address {
+  opacity: 1;
+  background-color: black;
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+  padding: 10px;
+  margin: 5px 20px;
+  flex-basis: 280px;
+}
+
+#contact {
+  height: 200px;
+}
+
+footer {
+  text-align: left;
+  padding-left: 20px;
+}
